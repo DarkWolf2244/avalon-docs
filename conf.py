@@ -8,7 +8,8 @@
 import sys
 import os
 
-sys.path.append(fr"C:\Users\{os.getenv('USERNAME')}\Desktop\Projects\Avalon")
+sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath("../"))
 
 project = 'Avalon'
 copyright = '2022, DarkWolf'
